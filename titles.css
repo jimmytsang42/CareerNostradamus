@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&family=Pompiere&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: 'Pompiere', cursive;
+
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    background-color: rgb(240, 238, 151);
+}
+
+#titles {
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+
+#description {
+    font-size: 15pt;
+}
+
+small {
+    
+   margin-top: 40%; 
+}
+
+.button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(84, 238, 64);
+    color: black;
+    border: 2px rgb(18,0,31);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: rgb(58, 153, 45);
+  }
+  
+  .button:active {
+    background-color: rgb(84, 238, 64);
+  }
+  
